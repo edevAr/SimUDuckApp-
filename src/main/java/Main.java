@@ -7,5 +7,9 @@ public class Main {
 
         Duck duck1 = new RedheadDuck();
         duck1.display();
+
+        Duck duck2 = new RubberDuck();
+        duck2.quack();
+        duck2.display();
     }
 }
