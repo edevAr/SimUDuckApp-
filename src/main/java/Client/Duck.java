@@ -1,5 +1,7 @@
-import DuckBehaviors.FlyBehavior;
-import DuckBehaviors.QuackBehavior;
+package Client;
+
+import DuckBehaviors.FlyBehavior.FlyBehavior;
+import DuckBehaviors.QuackBehavior.QuackBehavior;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;
