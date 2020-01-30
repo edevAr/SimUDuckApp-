@@ -1,3 +1,5 @@
+import DuckBehaviors.FlyRocketPowered;
+
 public class Main {
     public static void main(String[]arg){
         System.out.println("=======SIMUDUCK=======");
@@ -5,5 +7,10 @@ public class Main {
         Duck mallardDuck = new MallardDuck();
         mallardDuck.performanceQuack();
         mallardDuck.performFly();
+
+        Duck model = new ModelDuck();
+        model.performFly();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.performFly();
     }
 }
