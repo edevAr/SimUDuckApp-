@@ -11,5 +11,9 @@ public class Main {
         Duck duck2 = new RubberDuck();
         duck2.quack();
         duck2.display();
+
+        Duck duck3 = new DecoyDuck();
+        duck3.display();
+        duck3.fly();
     }
 }
