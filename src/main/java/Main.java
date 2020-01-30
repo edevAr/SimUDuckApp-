@@ -1,4 +1,7 @@
-import DuckBehaviors.FlyRocketPowered;
+import Client.Duck;
+import Client.MallardDuck;
+import Client.ModelDuck;
+import DuckBehaviors.QuackBehavior.FlyRocketPowered;
 
 public class Main {
     public static void main(String[]arg){

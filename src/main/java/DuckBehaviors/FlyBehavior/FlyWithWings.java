@@ -1,4 +1,6 @@
-package DuckBehaviors;
+package DuckBehaviors.FlyBehavior;
+
+import DuckBehaviors.FlyBehavior.FlyBehavior;
 
 public class FlyWithWings implements FlyBehavior {
     public void fly() {

@@ -1,6 +1,7 @@
+package Client;
 
-import DuckBehaviors.FlyWithWings;
-import DuckBehaviors.Quack;
+import DuckBehaviors.FlyBehavior.FlyWithWings;
+import DuckBehaviors.QuackBehavior.Quack;
 
 public class MallardDuck extends Duck {
 
