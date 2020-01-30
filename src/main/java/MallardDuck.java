@@ -1,17 +1,15 @@
-import DuckBehaviors.FlyBehavior;
-import DuckBehaviors.QuackBehavior;
 
-public class MallardDuck extends Duck implements FlyBehavior, QuackBehavior {
+import DuckBehaviors.FlyWithWings;
+import DuckBehaviors.Quack;
+
+public class MallardDuck extends Duck {
+
+    public MallardDuck() {
+        quackBehavior = new Quack();
+        flyBehavior = new FlyWithWings();
+    }
 
     public void display() {
-        System.out.println("looks like a mallard");
-    }
-
-    public void fly() {
-
-    }
-
-    public void quack() {
-
+        System.out.println("I am a real Mallard duck");
     }
 }
